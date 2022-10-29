@@ -155,14 +155,13 @@
   &:hover,
   &:focus {
     border-color: color("accent-color");
+
+    .clients-list__icon {
+      fill: color("accent-color");
+    }
   }
 }
 
 .clients-list__icon {
   @include animation(fill);
-
-  .clients-list__link:hover &,
-  .clients-list__link:focus & {
-    fill: color("accent-color");
-  }
 }

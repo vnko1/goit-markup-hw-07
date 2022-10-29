@@ -24,6 +24,7 @@
 
 .socials__icon {
   @include animation(fill);
+
   .socials__link:hover &,
   .socials__link:focus & {
     fill: color("secondary-color");

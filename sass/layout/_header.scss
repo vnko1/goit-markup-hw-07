@@ -88,14 +88,12 @@
   &:hover,
   &:focus {
     color: color("accent-color");
+    .contacts__icon {
+      fill: currentColor;
+    }
   }
 }
 
 .contacts__icon {
   margin-right: 10px;
-
-  .contacts__link:hover &,
-  .contacts__link:focus & {
-    fill: currentColor;
-  }
 }

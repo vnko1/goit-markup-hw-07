@@ -13,12 +13,8 @@
   margin-bottom: 20px;
 }
 
-.address {
-  font-style: normal;
-
-  .address-list__item:not(:last-child) {
-    margin-bottom: 9px;
-  }
+.address-list__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-list__link {
