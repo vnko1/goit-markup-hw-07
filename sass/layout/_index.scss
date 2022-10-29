@@ -90,7 +90,7 @@
   text-align: center;
   @include font(700, 14, 16, null);
   text-transform: uppercase;
-  color: color("header-logo-color") secondary-color;
+  color: color("secondary-color");
   background-color: rgba(47, 48, 58, 0.8);
 }
 
